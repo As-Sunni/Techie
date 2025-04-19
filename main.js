@@ -1,17 +1,17 @@
 "use strict";
 
 const body = document.querySelector("body");
-const mySwiper = document.querySelector(".mySwiper");
-  mySwiper.setAttribute("slides-per-view", 3);
+// const mySwiper = document.querySelector(".mySwiper");
+//   mySwiper.setAttribute("slides-per-view", 3);
 
-function reduceSwiperSize() {
-  if (body.clientWidth <= 990) {
-    mySwiper.setAttribute("slides-per-view", 1);
-  } else {
-    mySwiper.setAttribute("slides-per-view", 3);
-  }
-}
-window.addEventListener("resize", reduceSwiperSize);
+// function reduceSwiperSize() {
+//   if (body.clientWidth <= 990) {
+//     mySwiper.setAttribute("slides-per-view", 1);
+//   } else {
+//     mySwiper.setAttribute("slides-per-view", 1);
+//   }
+// }
+// window.addEventListener("resize", reduceSwiperSize);
 
 const btn = document.querySelector(".btn-box");
 const nav = document.querySelector(".nav");

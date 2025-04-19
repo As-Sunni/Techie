@@ -1,5 +1,5 @@
 @media (max-width: 1200px) {
-  .pading{
+  .pading {
     padding: 2rem 7rem;
   }
   .btn-box {
@@ -9,22 +9,21 @@
   .nav {
     padding: 2rem;
   }
-  .nav-list-box{
-    opacity: 0;
+  .nav-list-box {
+    display: flex;
     position: absolute;
     flex-direction: column;
     top: 8rem;
-    left: 0;
+    left: 100%;
     gap: 4rem;
     padding: 5rem;
     width: 100%;
     height: 100vh;
-    transition: 0.5s;
-    background-color: rgba(0, 0, 0, 0.7);
+    transition: .5s;
+    background-color: rgb(127, 8, 238);
   }
   .toggle .nav-list-box {
-    opacity: 1;
-
+    left: 0;
   }
   .toggle .open {
     display: none;
@@ -32,72 +31,72 @@
   }
   .toggle .close {
     display: block;
-    transition: .5s;
+    transition: 0.5s;
   }
   .toggle-box {
     gap: 1rem;
   }
-  .hero-box{
+  .hero-box {
     padding-top: 5rem;
   }
-  .nav-btn{
+  .nav-btn {
     padding: 5px 1rem;
   }
 }
-@media(max-width:1100px){
-  .hero{
+@media (max-width: 1100px) {
+  .hero {
     padding-top: 10rem;
     padding-bottom: 5rem;
   }
 }
-@media(max-width:990px){
-  .hero-box{
+@media (max-width: 990px) {
+  .hero-box {
     flex-direction: column-reverse;
   }
-  .hero-img{
+  .hero-img {
     width: 70%;
   }
-  .hero-text{
+  .hero-text {
     font-size: 4rem;
   }
-  .hero-sub-text{
+  .hero-sub-text {
     font-size: 2rem;
     padding: 2rem 0;
     margin-bottom: 2rem;
   }
-  .about-box{
+  .about-box {
     flex-direction: column-reverse;
   }
-  .about-img{
+  .about-img {
     width: 70%;
     margin: auto;
   }
-  .features-grid{
+  .features-grid {
     flex-direction: column-reverse;
   }
-  .features-img{
+  .features-img {
     width: 50%;
     margin: auto;
   }
-  .slideDiv{
+  .slideDiv {
     width: 100%;
   }
-  .pricing-box{
+  .pricing-box {
     grid-template-columns: 1fr;
   }
-  .price-btn{
+  .price-btn {
     margin: 0;
   }
-  .team-img-box{
+  .team-img-box {
     grid-template-columns: 1fr 1fr;
   }
-  .outer-grid{
+  .outer-grid {
     grid-template-columns: 1fr;
   }
-  .footer-grid{
+  .footer-grid {
     grid-template-columns: 1fr;
   }
-  .tab-component{
+  .tab-component {
     grid-template-columns: 1fr 1fr;
   }
   .service-grid {
@@ -107,43 +106,42 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 5rem;
   }
-  .pading{
-    padding: 2rem 3rem
+  .pading {
+    padding: 2rem 3rem;
   }
 }
-@media(max-width:600px){
-  
-  .accordion-box{
-    width: 100%
+@media (max-width: 600px) {
+  .accordion-box {
+    width: 100%;
   }
-  .footer-list-box{
-    grid-template-columns: 1fr 1fr
+  .footer-list-box {
+    grid-template-columns: 1fr 1fr;
   }
 }
-@media(max-width:500px){
-  .footer-list-box{
+@media (max-width: 500px) {
+  .footer-list-box {
     grid-template-columns: 1fr;
   }
-  .team-img-box{
+  .team-img-box {
     grid-template-columns: 1fr;
   }
-  .inner-grid1{
+  .inner-grid1 {
     grid-template-columns: 1fr;
   }
-  .navBtn{
+  .navBtn {
     display: none;
   }
-  .tab-component{
+  .tab-component {
     grid-template-columns: 1fr;
     padding: 2rem 0;
   }
-  .counter-box{
+  .counter-box {
     grid-template-columns: 1fr;
   }
-  swiper-slide{
+  swiper-slide {
     padding: 2rem 0;
   }
-  .slideDiv{
+  .slideDiv {
     padding: 2rem 0;
   }
 }
